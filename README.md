@@ -11,3 +11,5 @@ It now includes steps for GitHub.
 This is at master.
 
 I do another change at github master in order to do pull.
+Άνοιξα το Readmr.md μέσω του descktopGitHub.
+
