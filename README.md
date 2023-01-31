@@ -12,4 +12,6 @@ This is at master.
 
 I do another change at github master in order to do pull.
 Άνοιξα το Readmr.md μέσω του descktopGitHub.
+Μετέφερα το local repository στο Documents/GitHub και θα το σβήσω απο το myproject.
+
 
