@@ -21,7 +21,7 @@ function btnClick() {
     console.log(rr1, gg1, bb1);
     x[i].innerHTML = rr1 + "-" + gg1 + "-" + bb1;
     x[i].style.backgroundColor = "RGBA(" + rr2 + "," + gg2 + "," + bb2 + ",1)";
-    if(rr+gg+bb<=200){
+    if((rr+gg+bb)<=300){
     x[i].style.color="white";};
   }
 }

@@ -8,27 +8,29 @@
 <link rel="stylesheet" href="style.css">
 <style>
 :root {
-  --imgDime:250px;
+  --imgDime:0.5;
 } 
 </style>
 </head>
 <body>
 <h1>Hello world of painting</h1>
 <p>This is my attempt in GitHub Repository.</p>
-<!-- Πρώτος πίνακας -->
+<!-- Πρώτος πίνακας     
+  style="width:var(--imgDime);height:var(--imgDime);"
+    style="width:var(--imgDime);height:var(--imgDime);"-->
 <div>
   <table style="width:90%;max-width: 600px;"> 
 <tr>
   <td style="width:50%;text-align: center;">
-    <img src="https://uploads2.wikiart.org/images/claude-monet/argenteuil-1875(1).jpg!Large.jpg" 
+    <img style="width:95%" src="https://uploads2.wikiart.org/images/claude-monet/argenteuil-1875(1).jpg!Large.jpg" 
   alt="Monet Claude Red boats at Argenteuil, 1875"
-  style="width:var(--imgDime);height:var(--imgDime);"><br>
+><br>
   Monet Claude<br> Red boats at Argenteuil,<br> 1875
 </td>
 <td style="width:50%;text-align: center;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sailboats_on_the_Seine.jpg/1098px-Sailboats_on_the_Seine.jpg?20150414145052" 
+  <img style="width:95%" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sailboats_on_the_Seine.jpg/1098px-Sailboats_on_the_Seine.jpg?20150414145052" 
 alt="Monet Claude Sailboats on the Seine at Petit-Gennevilliers 1874" 
-  style="width:var(--imgDime);height:var(--imgDime);"><br>
+><br>
 Monet Claude<br> Sailboats on the Seine <br>at Petit-Gennevilliers, 1874
 </td>
 </tr>
@@ -41,7 +43,7 @@ Monet Claude<br> Sailboats on the Seine <br>at Petit-Gennevilliers, 1874
     <input style="height:40px" type="button" value="Click Me" OnClick="btnClick()"></p> 
 
       <table id="mytable1" style="width:100%; max-width: 600px;">
-      <tr style="height:60px">
+      <tr style="width:100%; height:60px">
       <!-- style="height:60px" --> 
         <td style="width:10%"><br /></td>         <td></td>        <td></td>        <td></td>        <td></td>        <td></td>
         <td></td>        <td></td>        <td></td>        <td></td>
