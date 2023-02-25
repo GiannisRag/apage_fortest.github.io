@@ -5,6 +5,11 @@
 <title>Hello World of Painting!</title>
 <link rel="icon" type="image/x-icon" href="Images/favicon.png">
 <link rel="stylesheet" href="bluestyle.css">
+<style>
+:root {
+  --dimens:150px;
+} 
+</style>
 </head>
 <body>
 <h1>Hello world of painting</h1>
@@ -12,11 +17,11 @@
 <div>
   <img src="https://uploads2.wikiart.org/images/claude-monet/argenteuil-1875(1).jpg!Large.jpg" 
   alt="Monet Claude Red boats at Argenteuil, 1875"
-style="width:40%; height:250px; max-width:263px">
+  style="float:left;width:var(--dimens);height:var(--dimens);">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Sailboats_on_the_Seine.jpg/1098px-Sailboats_on_the_Seine.jpg?20150414145052" 
 alt="Monet Claude Sailboats on the Seine at Petit-Gennevilliers 1874" 
-style="width:40%; height:250px; max-width:300px">
-<h4>Monet Claude Red boats at Argenteuil, 1875<br/>
+  style="float:left;width:var(--dimens);height:var(--dimens);">
+<h4 style="clear: left">Monet Claude Red boats at Argenteuil, 1875<br/>
 Monet Claude Sailboats on the Seine at Petit-Gennevilliers, 1874</h4>
 </div>
 
