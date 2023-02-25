@@ -20,11 +20,12 @@ function btnClick() {
     bb1 =(bb1/256)*100;bb1=bb1.toFixed(0); 
     console.log(rr1, gg1, bb1);
     x[i].innerHTML = rr1 + "-" + gg1 + "-" + bb1;
-    x[i].style.backgroundColor = "RGBA(" + rr2 + "," + gg2 + "," + bb2 + ",0.99)";
+    x[i].style.backgroundColor = "RGBA(" + rr2 + "," + gg2 + "," + bb2 + ",1)";
+    if(rr+gg+bb<=200){
+    x[i].style.color="white";};
   }
 }
-//    }
-//}
+
 
 /*
 function aaaa1() {
